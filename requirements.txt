@@ -1,0 +1,10 @@
+pandas
+numpy
+tqdm
+transformers>=4.42
+accelerate
+peft
+torch --extra-index-url https://download.pytorch.org/whl/cu121
+openai>=1.40
+scipy
+pytest

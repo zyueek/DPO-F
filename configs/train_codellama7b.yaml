@@ -1,0 +1,9 @@
+inherit: configs/base.yaml
+base_model: codellama/CodeLlama-7b-Instruct-hf
+train_data: data/ pairs_train.jsonl
+val_data:   data/ pairs_val.jsonl
+reward_l2_reg: 0.01
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05

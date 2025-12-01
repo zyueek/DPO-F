@@ -1,0 +1,9 @@
+seed: 51
+device: auto
+max_length: 1024
+train_batch_size: 4
+eval_batch_size: 8
+lr: 2e-5
+gamma: 0.05
+beta: 0.7
+output_dir: outputs

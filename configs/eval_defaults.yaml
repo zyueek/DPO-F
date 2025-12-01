@@ -1,0 +1,4 @@
+input_csv: /home/zihan/dpo_programming/all_generated_feedback_codellma.csv
+scorer_model: gpt-4o-mini-2024-07-18
+n_eval_samples: 5
+batch_size: 10
