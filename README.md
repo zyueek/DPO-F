@@ -1,6 +1,6 @@
-# RIHf: Feedback-Aligned Code Repair (data, training, inference, evaluation)
+# DPO-F+: Feedback-Aligned Code Repair
 
-This repository contains data construction, model training (DPO + reward-augmented), inference, and evaluation pipelines for **feedback-aligned code repair**.
+This repository is for the Artifact for CS 6367 – Final Project by Yueke Zhang, which contains data construction, model training (DPO + reward-augmented), inference, and evaluation pipelines for **feedback-aligned code repair**. 
 It supports:
 
 * Generating *natural-language feedback* for C++ fixes
