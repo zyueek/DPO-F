@@ -21,7 +21,7 @@ It supports:
 ## Repo structure
 
 ```
-rihf/
+DPO-F/
 ├── data_construction/
 │   ├── augmented_script.csv          # Seed/augmented items (code, metadata)
 │   ├── feedback_alignment_label.py   # Build labels for alignment
@@ -228,13 +228,4 @@ python -u evaluation/final_code_test.py
 * Fix model versions (e.g., `codellama/CodeLlama-7b-Instruct`, `Qwen2.5-1.5B-Intruct`).
 * Keep the evaluator prompts unchanged; mixing temperatures or families will affect scores.
 * For long CSVs, adjust `batch_size` and add brief sleeps to respect API rate limits.
-
----
-
-## Troubleshooting
-
-* **Tokenizer pad token error** → set `tokenizer.pad_token = tokenizer.eos_token`.
-* **CUDA OOM** → lower `max_new_tokens`, use gradient checkpointing, or try bf16/fp16 with smaller batch.
-* **Compilation fails widely** → inspect `*_compile_log` columns; ensure your extracted code fence is correct and that includes are present.
-* **Judge rate limits** → the evaluators already do exponential backoff; you can increase the sleep between items.
 
