@@ -34,9 +34,9 @@ from openai import OpenAI
 # =========================
 # Config
 # =========================
-INPUT_CSV  = os.getenv("INPUT_CSV",  "/home/zihan/dpo_programming/all_generated_feedback_codellma.csv")
-OUTPUT_CSV = os.getenv("OUTPUT_CSV", "/home/zihan/dpo_programming/all_generated_feedback_codellma_eval_paper_correct.csv")
-LOG_PATH   = os.getenv("LOG_PATH",   "/home/zihan/dpo_programming/test_part/g_eval_malformed.log")
+INPUT_CSV  = os.getenv("INPUT_CSV",  "all_generated_feedback_codellma.csv")
+OUTPUT_CSV = os.getenv("OUTPUT_CSV", "all_generated_feedback_codellma_eval_paper_correct.csv")
+LOG_PATH   = os.getenv("LOG_PATH",   "test_part/g_eval_malformed.log")
 GLOBAL_SEED = int(os.getenv("GLOBAL_SEED", "12345"))
 
 # Rubric judge (OpenAI)
