@@ -4,6 +4,14 @@
 
 This repository is for the Artifact for CS 6367 – Final Project by Yueke Zhang, which contains data construction, model training (DPO + reward-augmented), inference, and evaluation pipelines for **feedback-aligned code repair**. 
 
+**Training Demo:**
+
+https://github.com/user-attachments/assets/2c22d3d6-1917-44ca-b0f4-f4117b1d8acc
+
+
+
+**Inference Demo: LLM after DPO-F+ V.S Baseline:**
+
 https://github.com/user-attachments/assets/b7dfc4a4-fabd-4952-8f8a-1c8bab457dac
 
 It supports:
