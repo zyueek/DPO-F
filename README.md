@@ -2,7 +2,7 @@
 
  
 
-This repository is for the Artifact for CS 6367 – Final Project by Yueke Zhang, which contains data construction, model training (DPO + reward-augmented), inference, and evaluation pipelines for **feedback-aligned code repair**. As a PhD student, I intend to grow this into a full paper, so the implementation is relatively **complex and novel**, not a minimal demo.
+This repository is for the Artifact for CS 6367 – Final Project by Yueke Zhang, which contains data construction, model training (DPO + reward-augmented), inference, and evaluation pipelines for **feedback-aligned code repair**. As a PhD student, I intend to grow this into a full paper, so the implementation is relatively **complex and novel**. A full end-to-end reproduction of the training and evaluation pipeline is not feasible for a standard demo submission due to the following high-resource constraints:
 
 - **Training.** We fine-tune small code models (e.g., 1.5B–7B) with DPO-style objectives on ~6k preference pairs. On 2× RTX A6000 GPUs, each run takes on the order of **2-4 GPU-hours**.
 
@@ -10,7 +10,7 @@ This repository is for the Artifact for CS 6367 – Final Project by Yueke Zhang
 
 - **Evaluation (SWE-bench Lite).** Running **SWE-bench Lite (300 real issues)** end-to-end, which involves Dockerized environments, dependency installs, and full test suites per issue and model, leading to **20-100** hours.
 
-
+**So I provided demo on both training and inference of the LLM:**
 
 **Training Demo:**
 
