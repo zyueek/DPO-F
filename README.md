@@ -10,7 +10,7 @@ This repository is for the Artifact for CS 6367 – Final Project by Yueke Zhang
 
 - **Evaluation (SWE-bench Lite).** Running **SWE-bench Lite (300 real issues)** end-to-end, which involves Dockerized environments, dependency installs, and full test suites per issue and model, leading to **20-100** hours.
 
-**So I provided demo on both training and inference of the LLM:**
+**So I provided demo on both training and inference of the LLM with DPO-F+:**
 
 **Training Demo:**
 
